@@ -1,18 +1,25 @@
 //
 //
 
+import { Brand, CTA, Navbar } from './components';
+// prettier-ignore
+import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
 import './App.css';
-
-// import { Article, Brand, CTA, Feature, Navbar } from './components/index';
 
 function App() {
   return (
-    <div className=''>
-      {/* <Article />
+    <div className='App'>
+      <div className='gradient__bg'>
+        <Navbar />
+        <Header />
+      </div>
       <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
       <CTA />
-      <Feature />
-      <Navbar /> */}
+      <Blog />
+      <Footer />
     </div>
   );
 }
