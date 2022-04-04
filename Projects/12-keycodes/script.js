@@ -1,4 +1,16 @@
 //
 //
 
-console.log(1111);
+const insert = document.querySelector('#insert');
+
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML = `
+    <div class="key key1"> ${
+      e.key === ' ' ? 'Space' : e.key
+    } <small>event.key</small></div>
+
+    <div class="key"> ${e.keyCode}<small>event.keyCode</small></div>
+
+    <div class="key"> ${e.code} <small>event.code</small></div>
+  `;
+});
