@@ -8,7 +8,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
+a {
+  text-align: center !important;
+  font-size: 20px !important;
+}
+
+.list-group-item {
+  background-color: #acc8e5;
+  color: #112a46;
+}
+
+/* .container {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
@@ -31,7 +41,7 @@ a:hover {
 }
 
 .box {
-  /* border: 1px solid #000; */
+  border: 1px solid #000;
   margin: 20px;
   padding: 10px;
-}
+} */
